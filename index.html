@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RPS Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+</head>
+<body>
+  
+  <section id="main-container">
+    <div id="title-box">
+     <p id="game-title"> Rock-Paper-Scissor </p>
+   </div>
+   <!-- choice input -->
+   <div class="player-option">
+     <img id="rock" class="images" src="rock.png" alt="rock" title="rock">
+     <img id="paper" class="images" src="paper.png" alt="paper" title="paper">
+     <img id="scissors" class="images" src="scissor.png" alt="scissors" title="scissor">
+
+   </div>
+
+   <!-- paragraph, computer result , game counter, reset buton -->
+   <div id="game-board">
+    <p id="computer-play-result">play against <em><strong>The Computer</strong></em> by making your choice, good luck!
+      <span id="computer-result"><em></em></span></span></p>
+      <p id="game-result">[ Best of 5 ]</p>
+
+      <div>
+
+       <div>
+        <p class="score-board player"><img src="human.png" class="player-avatar"> : <span id="human-score">Ø</span></p>
+
+        <p class="score-board computer"><img src="robot.png" class="computer-avatar"> : <span id="robot-score">Ø</span></p>
+      </div>
+
+    </div>
+
+    <div>
+      <img id="reset-icon" src="resetButton.png" alt="reset icon" title="Reset Game">
+    </div>
+
+  </section>
+  <script src="main.js"></script>
+
+  </html>
