@@ -4,6 +4,7 @@
 
 # Description: 
 This porject is a Rock-Paper-Scissors game using Javascript Logic to play agains the computer.
+I learned to do it thanks to The Odin Project course. credits to them.
 Good luck trying to win!
 
 # Website link here!  
