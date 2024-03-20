@@ -49,9 +49,7 @@ html, body {
 #scissors {
     padding-left: 1.3em;
 }
-.images:active{
-    transform: scale(0.70);
-}
+
 #game-board {
     width: 19em;
 }
